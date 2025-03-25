@@ -45,7 +45,7 @@ jobs:
 
   build:
     if: always()
-    needs: [eslint, test]
+    needs: [test]
 
     environment:
       name: github-pages
